@@ -41,3 +41,15 @@ Route::resource('cities', 'CityController');
 Route::resource('cities', 'CityController');
 
 Route::resource('cities', 'CityController');
+
+Route::resource('countries', 'CountryController');
+
+Route::resource('countries', 'CountryController');
+
+Route::resource('cities', 'CityController');
+
+Route::resource('areas', 'AreaController');
+
+Route::resource('addresses', 'AddressController');
+
+Route::resource('contactInfos', 'ContactInfoController');

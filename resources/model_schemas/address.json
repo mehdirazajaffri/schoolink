@@ -11,7 +11,23 @@
         "inIndex": false
     },
     {
-        "name": "name",
+        "name": "country_id",
+        "dbType": "integer:unsigned:foreign,countries,id",
+        "htmlType": "text",
+        "relation": "mt1,countries,country_id,id"
+    },
+    {
+        "name": "city_id",
+        "dbType": "integer:unsigned:foreign,cities,id",
+        "htmlType": "text"
+    },
+    {
+        "name": "area_id",
+        "dbType": "integer:unsigned:foreign,areas,id",
+        "htmlType": "text"
+    },
+    {
+        "name": "zipcode",
         "dbType": "string",
         "htmlType": "text",
         "validations": "required",
@@ -22,15 +38,13 @@
         "inIndex": true
     },
     {
-        "name": "code",
+        "name": "location",
         "dbType": "string",
         "htmlType": "text",
-        "validations": "required",
         "searchable": true,
         "fillable": true,
         "primary": false,
-        "inForm": true,
-        "inIndex": true
+        "inForm": true
     },
     {
         "name": "created_at",
@@ -53,11 +67,5 @@
         "primary": false,
         "inForm": false,
         "inIndex": false
-    },
-    {
-        "name": "country_id",
-        "dbType": "integer:unsigned:foreign,countries,id",
-        "htmlType": "text",
-        "relation": "mt1,countries,country_id,id"
     } 
 ]

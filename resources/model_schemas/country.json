@@ -33,6 +33,17 @@
         "inIndex": true
     },
     {
+        "name": "currency",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required",
+        "searchable": true,
+        "fillable": true,
+        "primary": false,
+        "inForm": true,
+        "inIndex": true
+    },
+    {
         "name": "created_at",
         "dbType": "timestamp",
         "htmlType": null,
@@ -53,11 +64,5 @@
         "primary": false,
         "inForm": false,
         "inIndex": false
-    },
-    {
-        "name": "country_id",
-        "dbType": "integer:unsigned:foreign,countries,id",
-        "htmlType": "text",
-        "relation": "mt1,countries,country_id,id"
     } 
 ]

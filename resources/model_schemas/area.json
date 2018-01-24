@@ -22,17 +22,6 @@
         "inIndex": true
     },
     {
-        "name": "code",
-        "dbType": "string",
-        "htmlType": "text",
-        "validations": "required",
-        "searchable": true,
-        "fillable": true,
-        "primary": false,
-        "inForm": true,
-        "inIndex": true
-    },
-    {
         "name": "created_at",
         "dbType": "timestamp",
         "htmlType": null,
@@ -55,9 +44,9 @@
         "inIndex": false
     },
     {
-        "name": "country_id",
-        "dbType": "integer:unsigned:foreign,countries,id",
+        "name": "city_id",
+        "dbType": "integer:unsigned:foreign,cities,id",
         "htmlType": "text",
-        "relation": "mt1,countries,country_id,id"
+        "relation": "mt1,City,city_id,id"
     } 
 ]
