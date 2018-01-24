@@ -53,3 +53,9 @@ Route::resource('areas', 'AreaController');
 Route::resource('addresses', 'AddressController');
 
 Route::resource('contactInfos', 'ContactInfoController');
+
+Route::resource('schools', 'SchoolController');
+
+Route::resource('schools', 'SchoolController');
+
+Route::resource('schools', 'SchoolController');

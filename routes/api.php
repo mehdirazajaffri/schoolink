@@ -29,3 +29,9 @@ Route::resource('areas', 'AreaAPIController');
 Route::resource('addresses', 'AddressAPIController');
 
 Route::resource('contact_infos', 'ContactInfoAPIController');
+
+Route::resource('schools', 'SchoolAPIController');
+
+Route::resource('schools', 'SchoolAPIController');
+
+Route::resource('schools', 'SchoolAPIController');

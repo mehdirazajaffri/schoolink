@@ -18,3 +18,6 @@
     <a href="{!! route('contactInfos.index') !!}"><i class="fa fa-edit"></i><span>Contact Infos</span></a>
 </li>
 
+<li class="{{ Request::is('schools*') ? 'active' : '' }}">
+    <a href="{!! route('schools.index') !!}"><i class="fa fa-edit"></i><span>Schools</span></a>
+</li>
